@@ -1,0 +1,52 @@
+/*!
+ *   Style.css
+ */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #000;
+    background: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-position: TOP;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.inner_wrapper {
+    border: 1px solid #ddd;
+    padding: 30px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-item {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+
+.item-input {
+    height: 34px;
+    float: left;
+    display: block;
+    border-radius: 4px;
+    width: 220px;
+    margin-right: 14px;
+}
+
+.control-arrow {
+    margin-top: 3%;
+}
+.main_iteem_value {
+    display: flex;
+    justify-content: space-between;
+}
+.main_iteem_value h2 {
+    margin: 0;
+}
